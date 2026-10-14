@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Clothes</title>
+</head>
+<body>
+    <div class="home">
+        <nav>
+            <ul class="nav-itens">
+                <li>
+                    <a href="index.html" class="menu">Home</a>
+                </li>
+                <li>
+                    <a href="sobreNos.html" class="menu">Sobre Nós</a>
+                </li>
+            </ul>
+
+            <div class="btn">
+
+                <a href="./carrinho.html"><i class="fa-solid fa-cart-shopping fa-xl" id="imgC"></i></a>
+
+            </div>
+        </nav>
+        <section>
+            <div class="apresentacao">
+                <h1>Seu Armario Tech</h1>
+                <p>Navegue e se inspire na moda</p>
+            </div>
+        </section>
+        <section>
+            <div class="imgPrincipal">
+                 <img id="imgbtn" src="./img/Camisa01.jpg" alt="">
+                 <p id="camisetaPreta">Camiseta Preta</p>
+            </div>
+        </section>
+        <div class="modelos">
+            <h2>Principais Modelos.</h2>
+        </div>
+        <section class="cards">
+            <div class="slots">
+                <div class="img-container">
+                    <img src="./img/Moletombranco.jpg" alt="Moletom Branco" id="img1">
+                </div>
+                <h4 id="moletom">Moletom Branco.</h4>
+                <div class="botoes">
+                    <button class="comprar" id="btn2"><a>Comprar</a></button>
+                </div>
+            </div>
+            <div class="slots">
+                <div class="img-container">
+                    <img src="./img/calcajeans.jpg" alt="" id="img2">
+                </div>
+                 <h4 id="camisaBasica">Calça Jeans.</h4>
+                 <div class="botoes">
+                     <button class="comprar" id="btn3"><a>Comprar</a></button>
+                 </div>
+            </div>  
+            <div class="slots">
+                <div class="img-container">
+                    <img src="./MoletomVerde.jpg" alt="Moletom Verde" id="img3">
+                </div>
+                <h4 id="moletomVerde">Moletom Verde.</h4>
+                <div class="botoes">
+                    <button class="comprar" id="btn4"><a>Comprar</a></button>
+            </div>
+        </section>
+    </div>
+    <h2 class="promo">Receba Promoções</h2>
+    <section class="formulario">
+        <form action="contato" class="contato" id="contato">
+            <div class="row">
+                <input type="text" name="nome" id="inome" placeholder="Insira seu nome" required minlength="3" maxlength="35">
+                <input type="email" name="email" id="iemail" placeholder="Insira seu e-mail" required>
+            </div>
+            <div class="row">
+                <input type="tel" name="telefone" id="itelefone" placeholder="Insira seu telefone" maxlength="11" minlength="9" required>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </section>
+    <script src="./js/home.js"></script>
+</body>
+</html>
